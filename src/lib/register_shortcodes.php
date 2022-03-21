@@ -106,7 +106,7 @@ class register_shortcodes
      */
     private function template()
     {
-        $this->output = '<a class="flex-1 m-3 ml-auto w-11 py-2.5 px-3 font-thin bg-gradient-to-tr from-emerald-400 to-emerald-600 hover:from-amber-400 hover:to-amber-600 rounded-lg hover:fill-white flex flex-row items-center cursor-pointer" href="'.$this->url.'">';
+        $this->output = '<a class="h-full w-full px-3 font-thin bg-gradient-to-tr from-emerald-400 to-emerald-600 hover:from-amber-400 hover:to-amber-600 rounded-lg hover:fill-white flex flex-row items-center cursor-pointer" href="'.$this->url.'">';
             
             $this->output .= '<div class="w-5 h-5">';
                 $this->output .= $this->svg;
